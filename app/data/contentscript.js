@@ -16,6 +16,9 @@ script.onload = () =>
 
     const client = new DeliverOn.Client(config);
 
+    window["deli"] = client;
+
+    console.log("Configured Deliveron Client available to window as 'deli' variable.");
 }
 
 document.body.appendChild(script);
