@@ -1,0 +1,10 @@
+{
+    "name": "script-loader",
+    "id": "ff-script-loader@nozzlegear.com",
+    "title": "Script Loader",
+    "description": "My Firefox Extension",
+    "author": "Joshua Harms",
+    "license": "MPL 2.0",
+    "version": "0.1.0",
+    "main": "lib/main.js"
+}
