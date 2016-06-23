@@ -5,6 +5,9 @@
     "description": "My Firefox Extension",
     "author": "Joshua Harms",
     "license": "MPL 2.0",
-    "version": "0.1.2",
-    "main": "lib/main.js"
+    "version": "0.1.3",
+    "main": "lib/main.js",
+    "permissions": {
+        "private-browsing": true
+    }
 }
